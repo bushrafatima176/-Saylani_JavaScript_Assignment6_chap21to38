@@ -63,31 +63,6 @@
 // var a = str.replace('.','');
 // document.write("Number: " + num + "<br> Result: " + a);
 
-//Task : 13
-// var username =prompt("Enter your Name");
-// for(var i=0; i<username.length; i++)
-// {
-//     if(username.splice(i,i+1) === "33" || username.splice(i,i+1) === "44" || username.splice(i,i+1) === "46" || username.splice(i,i+1) === "64")
-//     {
-//         alert("Invalid username");
-//     }
-// }
-
-
-
-//Task :15
-// var password = +prompt("Enter a password");
-// if(password === "65 <= 90" || password === "97 <=122")
-// {
-//     if(password === "48<=57")
-//     {
-//         document.write("Enterpassword: " + password);
-//     }
-
-// else{
-//     document.write("Password can not begin with number" + "<br>"+"Please enter a valid password")
-// }
-// }
 
 
 //Task :14
@@ -177,38 +152,25 @@
 // document.write("random number between 1 and 100: "+num);
 
 
-
-//Task : 7
-// var a =+prompt("Enter your weight in kilograms")
-// document.write(a + "<br>");
-// var b =parseFloat(a);
-// document.write(b + "kgs"+ "<b>");
-// var c = Math.random(b)
-// document.write(c + "kgs"+"<br>");
-
-// document.write("The weight of users is "+ b + "kilograms");
-
-
-
 // CHAPTER : 31-34
 
 //Task : 1
 // var a = new Date();
 // document.write(a);
 
-//Task :2
+//Task : 2
 // var monthNames = ["January", "February", "March", "April", "May", "June",
 //   "July", "August", "September", "October", "November", "December"];
 // var d = new Date();
 // document.write("The current month is " + monthNames[d.getMonth()]);
 
-//Task 3:
+//Task : 3
 // var a = new Date();
 // var b = a.toString();
 // var c = b.slice(0,3);
 // alert("Today is " +c);
 
-//Task 4:
+//Task : 4
 // var a = new Date();
 // if( a === "Sat" || a === "Sun")
 // {
@@ -218,7 +180,7 @@
 //     alert("It's not a Fun day")
 // }
 
-//Task 5:
+//Task :5
 // var a = new Date();
 // if(a === (1<=15))
 // {
@@ -229,7 +191,7 @@
 //     alert("Last days of the month");
 // }
 
-//Task 6:
+//Task : 6
 // var a = new Date("Dec 5,2015,22:32:23");
 // document.write("Current Date :" + a + "<br>");
 // var b = a.getTime();
@@ -238,7 +200,7 @@
 // var c=a.getSeconds();
 // document.write("Elapsed minutes since January 1, 1970 : " +c + "<br>")
 
-//Task 7:
+//Task : 7
 // var a = new Date();
 // var b = a.getHours;
 // if(b>=12)
@@ -249,13 +211,14 @@
 //     alert("It's PM");
 // }
 
-//Task 8:
+//Task : 8
 // var laterdate = new Date("Dec 31,2020");
 // document.write("Later date: "+ laterdate);
 
-//Task 9:
+//Task : 9
 // var a = new Date("Jun 18,2015");
 // alert(a)
+
 
 
 // CHAPTER : 35-38
@@ -267,6 +230,16 @@
 //  document.write(a)
 // }
 // date();
+
+
+//Task : 2
+// function fullName(firstName,lastName)
+// {
+//     return firstName + lastName;
+// }
+// var a = fullName("Bushra","Fatima");
+// alert("Full Name : "+a);
+
 
 //Task : 3
 // function add ()
@@ -306,6 +279,28 @@
 // document.write(result1 + "<br>");
 // document.write(result2 + "<br>");
 
+
+//Task : 5
+// function square(x)
+// {
+//     return x * x;
+// }
+// var a = square(5);
+// document.write("Square argument : " + a);
+
+//Task : 6
+// function factorial(x) 
+// { 
+//   if (x === 0)
+//  {
+//     return 1;
+//  }
+//   return x * factorial(x-1);
+         
+// }
+// document.write(factorial(6));
+
+
 //Task : 7
 // function count()
 // {
@@ -317,3 +312,25 @@
 // }
 // }
 // count();
+
+//Task : 10
+// var word = prompt("Enter your word");
+// var check="";
+// function palindromefun(){
+// for(var i =word.length-1; i>=0; i--)
+// {
+//   check += word[i];
+// }
+
+// if(check === word)
+// {
+//     document.write(word + " is palindrome word")
+// }
+// else
+// {
+//     document.write(word + " is not palindrome word")
+// }
+// }
+// palindromefun();
+
+
